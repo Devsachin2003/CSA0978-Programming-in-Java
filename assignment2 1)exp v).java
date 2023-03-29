@@ -1,10 +1,10 @@
-class Rangesub{
+class replacement{
     public static void main(String[] args) {
         String str = "The quick brown fox jumps over the lazy dog";
-        int start = 10;
-        int end = 15;
+        String a = "fox";
+        String replace = "cat";
         
-        String result = str.substring(start, end);
+        String result = str.replaceAll(a, replace);
         System.out.println(result);
     }
 }
